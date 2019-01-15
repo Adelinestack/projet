@@ -1,0 +1,11 @@
+.tag {
+  background: rgb(245, 244, 209);
+  padding: 20px;
+}
+.container-tag {
+  display: flex;
+  flex-direction: column;
+}
+.container-tag input {
+  border-bottom: 2px solid rgb(201, 198, 112);
+}
