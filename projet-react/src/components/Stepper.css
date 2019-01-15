@@ -1,5 +1,8 @@
+.stepper {
+  background: #718bff;
+  padding: 40px;
+}
 .container {
-  margin: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;

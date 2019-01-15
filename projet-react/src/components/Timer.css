@@ -1,0 +1,40 @@
+.timer {
+  background: rgb(198, 129, 129);
+  padding: 40px;
+}
+.timer-block {
+  margin: 20px;
+  text-align: center;
+}
+.timer-title {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.timer-element {
+  font-size: 50px;
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 8px 8px 30px -15px #000;
+}
+.timer-separation {
+  color: #fff;
+  font-size: 50px;
+  padding-top: 40px;
+}
+.btn-nude {
+  border: none;
+  background: transparent;
+  color: #fff;
+  box-shadow: 0px 0px 20px -6px #000;
+}
+.btn-start {
+  border: none;
+  background: rgb(153, 198, 153);
+  color: #fff;
+  box-shadow: 0px 0px 20px -6px #000;
+}
