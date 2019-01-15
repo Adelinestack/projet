@@ -1,0 +1,12 @@
+.container {
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.counter {
+  font-size: 30px;
+  background: #000;
+  color: #fff;
+  padding: 40px;
+}
