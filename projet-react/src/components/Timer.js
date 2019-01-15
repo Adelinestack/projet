@@ -40,12 +40,18 @@ class Timer extends Component {
       });
       if (distance <= 0) {
         clearInterval(this.intervalTimer);
+        this.setState({
+          hours: 0,
+          minutes: 0,
+          seconds: 0,
+        });
       }
       console.log(distance, seconds);
     }, 100);
   }
 
   onReset() {
+    clearInterval(this.intervalTimer);
     this.setState({
       hours: 0,
       minutes: 0,
